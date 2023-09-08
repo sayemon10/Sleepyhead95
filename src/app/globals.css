@@ -52,10 +52,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
   background-image: url(/grainy_gradient_final.png);
-  background-size: contain;
+  /* background-size: contain; */
   background-repeat: repeat;
+  border: 1px solid red;
 }
 
 a {
