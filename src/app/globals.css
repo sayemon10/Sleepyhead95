@@ -1,7 +1,7 @@
 :root {
   --font-titles: "Behila", sans-serif, "Balkeno", sans-serif;
 
-  --text-rgb: 70, 68, 68;
+  --text-colour: #464444;
 }
 
 @font-face {

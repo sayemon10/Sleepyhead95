@@ -1,0 +1,144 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  opacity: 1; /* had to change to 1 for now */
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 35%;
+}
+
+.me img {
+  width: 85%;
+  height: 90%;
+}
+
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding-top: 4rem;
+}
+
+/* .me,
+.line,
+.aboutWrapper {
+  transform: translateY(100%);
+  opacity: 1; /* Had to change from 0 to 1 for now 
+  transition: transform 2s, opacity 2s;
+} */
+
+/* .me.visible,
+.line.visible,
+.aboutWrapper.visible {
+  transform: translateY(0);
+  opacity: 1;
+} */
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: auto;
+  padding: 4rem 8rem;
+  border: 1px solid var(--text-colour);
+  border-radius: 50% / 100%;
+}
+
+.aboutMe h2 {
+  font-family: "Behila", sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
+  color: var(--text-colour);
+  text-align: center;
+  margin: 0;
+}
+
+.aboutMe p {
+  margin: 2rem 0 0 0;
+}
+
+.workContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  margin-top: 2rem;
+  border: 1px solid var(--text-colour);
+  border-radius: 50% / 100%;
+  padding: 2.5rem 3rem;
+}
+
+.workContact:hover {
+  animation: shake 0.8s ease-in-out;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.connect {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--text-colour);
+}
+
+.workContact h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--text-colour);
+  text-align: center;
+  margin: 0;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  margin-top: 0.5rem;
+}
+.contacts img {
+  width: 2rem;
+  height: 2rem;
+}
+.linkedin {
+  width: 1.8;
+  height: 1.9rem;
+}
+
+.email {
+  width: 2.4rem;
+  height: 2.3rem;
+}
+
+.contacts img:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
