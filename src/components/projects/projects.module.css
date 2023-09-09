@@ -1,0 +1,23 @@
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 11rem;
+}
+
+.projectsContainer h2 {
+  font-family: "Behila", sans-serif;
+  font-size: 3rem;
+  color: var(--text-colour);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.projectsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

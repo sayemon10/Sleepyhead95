@@ -23,7 +23,7 @@
   align-items: center;
   width: 48rem;
   height: 25rem;
-  border: 1px solid #464444;
+  border: 1px solid var(--text-colour);
   border-radius: 50% / 100%;
 }
 
@@ -31,7 +31,7 @@
   font-family: "Behila";
   font-size: 2.8rem;
   font-weight: 200;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
 }
 
@@ -96,6 +96,6 @@
 
 .line {
   width: 5rem;
-  border: 0.5px solid #464444;
+  border: 0.5px solid var(--text-colour);
   height: 0.2px;
 }
