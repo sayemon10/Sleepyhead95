@@ -1,0 +1,101 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 10rem 7rem 0 7rem;
+}
+
+.skillsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: auto;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48rem;
+  height: 25rem;
+  border: 1px solid #464444;
+  border-radius: 50% / 100%;
+}
+
+.skills h2 {
+  font-family: "Behila";
+  font-size: 2.8rem;
+  font-weight: 200;
+  color: #464444;
+  text-align: center;
+}
+
+.skillsIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 0 0 2rem 0;
+}
+.iconsTopRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.iconsBottomRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 0.5rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+}
+
+.wrapper img {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+}
+
+.wrapper .bw {
+  z-index: 1;
+}
+
+.wrapper .colourful {
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 0.5s ease;
+}
+
+.wrapper:hover .colourful {
+  opacity: 1;
+  z-index: 1;
+}
+
+.wrapper:hover .bw {
+  opacity: 0;
+  z-index: 0;
+  transition: 0.5s ease;
+}
+
+.line {
+  width: 5rem;
+  border: 0.5px solid #464444;
+  height: 0.2px;
+}
