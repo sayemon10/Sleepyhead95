@@ -17,8 +17,7 @@
 
 .innerWrapper {
   height: 30rem;
-  width: 34.5rem;
-
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +49,19 @@
   justify-content: center;
   align-items: center;
   height: 19rem;
-  width: 28.5rem;
+  width: 60%;
+  overflow: hidden;
+  border-radius: 50% / 100%;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  position: relative;
+}
+.designImgWrapper1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 19rem;
+  width: 75%;
   overflow: hidden;
   border-radius: 50% / 100%;
   cursor: pointer;
@@ -58,7 +69,8 @@
   position: relative;
 }
 
-.designImgWrapper h4 {
+.designImgWrapper h4,
+.designImgWrapper1 h4 {
   z-index: 7;
   font-family: "Behila", sans-serif;
   font-size: 2rem;
@@ -70,20 +82,22 @@
   transition: all 700ms ease-in-out, opacity 2000ms ease-in-out;
 }
 
-.designImgWrapper img {
+.designImgWrapper img,
+.designImgWrapper1 img {
   height: 19rem;
-  width: 28.5rem;
+  width: 100%;
   object-fit: cover;
-
   transition: all 500ms ease-in-out;
 }
 
-.designImgWrapper:hover img {
+.designImgWrapper:hover img,
+.designImgWrapper1:hover img {
   transform: scale(1.3);
   opacity: 0.5;
 }
 
-.designImgWrapper:hover h4 {
+.designImgWrapper:hover h4,
+.designImgWrapper1:hover h4 {
   display: block;
   opacity: 1;
 }

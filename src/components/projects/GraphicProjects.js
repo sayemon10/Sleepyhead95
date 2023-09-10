@@ -12,10 +12,10 @@ export default function GraphicProjects() {
         <div className={styles.designImgWrapper}>
           <h4>See Project</h4>
           <Image
-            src="/flower.jpg"
+            src="/gradient4.jpg"
             alt="lushleaf see project button"
-            width={500}
-            height={450}
+            width={600}
+            height={550}
           />
         </div>
       </div>
@@ -35,13 +35,13 @@ export default function GraphicProjects() {
         <div className={styles.text}>
           <h4>Book Covers</h4>
         </div>
-        <div className={styles.designImgWrapper}>
+        <div className={styles.designImgWrapper1}>
           <h4>See Project</h4>
           <Image
-            src="/tiles.jpg"
+            src="/gradient5.jpg"
             alt="book covers see project button"
-            width={500}
-            height={450}
+            width={600}
+            height={550}
           />
         </div>
       </div>
@@ -76,10 +76,10 @@ export default function GraphicProjects() {
         <div className={styles.designImgWrapper}>
           <h4>See Project</h4>
           <Image
-            src="/flower folds.jpg"
+            src="/gradient6.jpg"
             alt="assist see project button"
-            width={500}
-            height={450}
+            width={600}
+            height={550}
           />
         </div>
       </div>

@@ -1,26 +1,40 @@
+"use client";
 import Image from "next/image";
 import Sidebar from "./Sidebar";
 import styles from "./programming.module.css";
+import { useState } from "react";
+import Ready from "./Ready";
 
 export default function ProgrammingProjects() {
+  const [openedProject, setOpenedProject] = useState(null);
+
   return (
-    <div classNameName={styles.programming}>
+    <div className={styles.programming}>
       <h3>Programming</h3>
-      <div className={styles.innerWrapper}>
+      <div
+        className={styles.innerWrapper}
+        onClick={() => setOpenedProject("Read-y")}
+      >
         <div className={styles.text}>
           <h4>Read-y</h4>
         </div>
-        <div className={styles.imgWrapper}>
+        <div className={styles.imgWrapper1}>
           <h4>See Project</h4>
           <Image
-            src="/gradient.jpg"
+            src="/gradient1.jpg"
             alt="ready see project button"
-            width={500}
-            height={450}
+            width={600}
+            height={550}
           />
         </div>
+
+        {openedProject === "Read-y" && (
+          <Sidebar isOpen={true} onClose={() => setOpenedProject(null)}>
+            <Ready />
+          </Sidebar>
+        )}
       </div>
-      {/* <Sidebar />  */}
+
       <div className={styles.innerWrapper}>
         <div className={styles.text}>
           <h4>Personal Portfolio</h4>
@@ -28,10 +42,10 @@ export default function ProgrammingProjects() {
         <div className={styles.imgWrapper}>
           <h4>See Project</h4>
           <Image
-            src="/mimosas.jpg"
+            src="/gradient2.jpg"
             alt="portfolio see project button"
-            width={500}
-            height={450}
+            width={600}
+            height={550}
           />
         </div>
       </div>
@@ -63,13 +77,13 @@ export default function ProgrammingProjects() {
         <div className={styles.text}>
           <h4>OneCom</h4>
         </div>
-        <div className={styles.imgWrapper}>
+        <div className={styles.imgWrapper1}>
           <h4>See Project</h4>
           <Image
-            src="/flower folds.jpg"
+            src="/gradient3.jpg"
             alt="OneCom see project button"
-            width={500}
-            height={450}
+            width={600}
+            height={550}
           />
         </div>
       </div>
