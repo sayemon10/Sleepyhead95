@@ -1,13 +1,14 @@
 import styles from "./sidebar.module.css";
 
 export default function Sidebar({ isOpen, onClose, children }) {
-  const sidebarStyles = {
-    transform: isOpen ? "translateX(0)" : "translateX(100%)",
-    transition: "transform 0.5s ease",
-  };
+  // const sidebarStyles = {
+  //   transform: isOpen ? "translateX(0)" : "translateX(100%)",
+  //   transition: "transform 0.5s ease",
+  // };
 
   return (
-    <div className={styles.sidebar} style={sidebarStyles}>
+    <div className={`${styles.sidebar} ${isOpen ? styles.slideIn : ""}`}>
+      <p>{isOpen.toString()}</p>
       <button className={styles.closebtn} onClick={onClose}>
         &times;
       </button>

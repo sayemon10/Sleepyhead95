@@ -29,7 +29,14 @@ export default function ProgrammingProjects() {
         </div>
 
         {openedProject === "Read-y" && (
-          <Sidebar isOpen={true} onClose={() => setOpenedProject(null)}>
+          <Sidebar
+            isOpen={true}
+            onClick={() => {
+              console.log("Close button clicked");
+              onClose(null);
+            }}
+          >
+            <p>Opened Project: {openedProject}</p>
             <Ready />
           </Sidebar>
         )}
@@ -49,30 +56,7 @@ export default function ProgrammingProjects() {
           />
         </div>
       </div>
-      {/* <div className="sidebar">
-        <a href="#" className="closebtn">
-          &times;
-        </a>
-        <p className="sidebarContent">Sidebar information goes here</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-          accusantium ea explicabo ipsa debitis ratione, ullam temporibus soluta
-          excepturi qui molestias provident similique sapiente, saepe asperiores
-          numquam distinctio quam possimus!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-          accusantium ea explicabo ipsa debitis ratione, ullam temporibus soluta
-          excepturi qui molestias provident similique sapiente, saepe asperiores
-          numquam distinctio quam possimus!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-          accusantium ea explicabo ipsa debitis ratione, ullam temporibus soluta
-          excepturi qui molestias provident similique sapiente, saepe asperiores
-          numquam distinctio quam possimus!
-        </p>
-      </div> */}
+
       <div className={styles.innerWrapper}>
         <div className={styles.text}>
           <h4>OneCom</h4>
@@ -87,30 +71,6 @@ export default function ProgrammingProjects() {
           />
         </div>
       </div>
-      {/* <div className="sidebar">
-        <a href="#" className="closebtn">
-          &times;
-        </a>
-        <p className="sidebarContent">Sidebar information goes here</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-          accusantium ea explicabo ipsa debitis ratione, ullam temporibus soluta
-          excepturi qui molestias provident similique sapiente, saepe asperiores
-          numquam distinctio quam possimus!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-          accusantium ea explicabo ipsa debitis ratione, ullam temporibus soluta
-          excepturi qui molestias provident similique sapiente, saepe asperiores
-          numquam distinctio quam possimus!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-          accusantium ea explicabo ipsa debitis ratione, ullam temporibus soluta
-          excepturi qui molestias provident similique sapiente, saepe asperiores
-          numquam distinctio quam possimus!
-        </p>
-      </div> */}
     </div>
   );
 }
