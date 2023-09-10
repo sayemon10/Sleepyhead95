@@ -1,0 +1,152 @@
+.portfolioContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.portfolioContainer h4 {
+  font-family: "Behila";
+  font-size: 4rem;
+  color: #464444;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.idea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+}
+
+.idea h5 {
+  font-family: "Behila";
+  font-size: 2.5rem;
+  color: #464444;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.idea p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+  color: #464444;
+  font-weight: 300;
+  padding: 0 5rem;
+  margin-bottom: 2rem;
+}
+
+.techColour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.techColour h5 {
+  font-family: "Behila";
+  font-size: 2.5rem;
+  color: #464444;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.techColour h6 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  color: #464444;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.techIcons,
+.designIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 3rem 0 1.5rem 0;
+}
+
+.techIcons img,
+.designIcons img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 0.5rem;
+}
+
+.techColour p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+  color: #464444;
+  font-weight: 300;
+  padding: 0 5rem;
+  margin-bottom: 2rem;
+}
+
+.colourPalette {
+  width: 45%;
+  height: 20%;
+  margin-top: 1.2rem;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 4rem 0;
+}
+
+.layout h5 {
+  font-family: "Behila";
+  font-size: 2.5rem;
+  color: #464444;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.layoutImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-top: 2rem;
+}
+
+.layoutImg img {
+  width: 100%;
+  height: auto;
+  margin: 2rem;
+}
+.layoutImg h6 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #464444;
+  text-align: center;
+  margin: 1.5rem 0;
+}

@@ -1,4 +1,4 @@
-@keyframes slideInFromRight {
+/* @keyframes slideInFromRight {
   from {
     transform: translateX(100%);
   }
@@ -14,7 +14,7 @@
   to {
     transform: translateX(100%);
   }
-}
+} */
 
 .sidebar {
   position: fixed;
@@ -25,16 +25,22 @@
   background: #f9f7ea;
   overflow: scroll;
   z-index: 6;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
+  /* animation-duration: 0.5s;
+  animation-fill-mode: forwards; */
+  transform: translateX(100%);
+  transition: width 0.9s ease-in-out;
 }
 
-.sidebar.slide-in {
+/* .sidebar.slide-in {
   animation-name: slideInFromRight;
 }
 
 .sidebar.slide-out {
   animation-name: slideOutToRight;
+} */
+
+.sidebar.slide-in {
+  width: 100%;
 }
 
 .closebtn {

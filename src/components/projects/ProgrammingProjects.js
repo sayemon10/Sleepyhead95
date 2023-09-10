@@ -4,6 +4,7 @@ import Sidebar from "./Sidebar";
 import styles from "./programming.module.css";
 import { useState } from "react";
 import Ready from "./Ready";
+import MyPortfolio from "./MyPortfolio";
 
 export default function ProgrammingProjects() {
   const [openedProject, setOpenedProject] = useState(null);
@@ -36,7 +37,6 @@ export default function ProgrammingProjects() {
               onClose(null);
             }}
           >
-            <p>Opened Project: {openedProject}</p>
             <Ready />
           </Sidebar>
         )}
@@ -55,6 +55,17 @@ export default function ProgrammingProjects() {
             height={550}
           />
         </div>
+        {openedProject === "Personal Portfolio" && (
+          <Sidebar
+            isOpen={true}
+            onClick={() => {
+              console.log("Close button clicked");
+              onClose(null);
+            }}
+          >
+            <MyPortfolio />
+          </Sidebar>
+        )}
       </div>
 
       <div className={styles.innerWrapper}>
