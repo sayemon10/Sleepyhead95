@@ -38,8 +38,8 @@ export default function MyPortfolio() {
             src="/portfolio/colour palette.png"
             alt="portfolio colour palette"
             className={styles.colourPalette}
-            width={800}
-            height={300}
+            width={1200}
+            height={400}
           />
           <p>
             Unlike in my other project, Read-y, I kept this colour palette
@@ -121,35 +121,35 @@ export default function MyPortfolio() {
           <Image
             src="/portfolio/stage1.1.png"
             alt="stage 1 of portfolio design"
-            width={600}
-            height={400}
+            width={2000}
+            height={1000}
           />
           <Image
             src="/portfolio/stage1.2.png"
             alt="stage 1.2 of portfolio design"
-            width={600}
-            height={400}
+            width={2000}
+            height={1800}
           />
           <h6>Version 1 - Mobile</h6>
           <Image
             src="/portfolio/stage1 mobile.png"
             alt="stage 1 mobile of portfolio design"
-            width={600}
-            height={400}
+            width={2000}
+            height={1800}
           />
           <h6>Version 2</h6>
           <Image
             src="/portfolio/stage2.png"
             alt="stage 2 of portfolio design"
-            width={600}
-            height={400}
+            width={2000}
+            height={1800}
           />
           <h6>Version 3</h6>
           <Image
             src="/portfolio/stage3.png"
             alt="stage 3 of portfolio design"
-            width={600}
-            height={400}
+            width={2000}
+            height={1800}
           />
         </div>
       </div>

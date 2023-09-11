@@ -5,6 +5,7 @@ import Sidebar from "./Sidebar";
 import LushLeaf from "./LushLeaf";
 import { useState } from "react";
 import BookCovers from "./BookCovers";
+import Assist from "./Assist";
 
 export default function GraphicProjects() {
   const [openedProject, setOpenedProject] = useState(null);
@@ -70,7 +71,10 @@ export default function GraphicProjects() {
         )}
       </div>
 
-      <div className={styles.innerWrapper}>
+      <div
+        className={styles.innerWrapper}
+        onClick={() => setOpenedProject("Assist")}
+      >
         <div className={styles.text}>
           <h4>Assist</h4>
         </div>
@@ -83,6 +87,17 @@ export default function GraphicProjects() {
             height={550}
           />
         </div>
+        {openedProject === "Assist" && (
+          <Sidebar
+            isOpen={true}
+            onClick={() => {
+              console.log("Close button clicked");
+              onClose(null);
+            }}
+          >
+            <Assist />
+          </Sidebar>
+        )}
       </div>
     </div>
   );

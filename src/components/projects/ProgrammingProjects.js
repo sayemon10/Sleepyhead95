@@ -5,6 +5,7 @@ import styles from "./programming.module.css";
 import { useState } from "react";
 import Ready from "./Ready";
 import MyPortfolio from "./MyPortfolio";
+import OneCom from "./OneCom";
 
 export default function ProgrammingProjects() {
   const [openedProject, setOpenedProject] = useState(null);
@@ -71,7 +72,10 @@ export default function ProgrammingProjects() {
         )}
       </div>
 
-      <div className={styles.innerWrapper}>
+      <div
+        className={styles.innerWrapper}
+        onClick={() => setOpenedProject("OneCom")}
+      >
         <div className={styles.text}>
           <h4>OneCom</h4>
         </div>
@@ -84,6 +88,17 @@ export default function ProgrammingProjects() {
             height={550}
           />
         </div>
+        {openedProject === "OneCom" && (
+          <Sidebar
+            isOpen={true}
+            onClick={() => {
+              console.log("Close button clicked");
+              onClose(null);
+            }}
+          >
+            <OneCom />
+          </Sidebar>
+        )}
       </div>
     </div>
   );

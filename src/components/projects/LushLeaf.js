@@ -9,8 +9,8 @@ export default function LushLeaf() {
         <Image
           src="/LushLeaf/lusheaf8.png"
           alt="presentation image of project"
-          width={700}
-          height={500}
+          width={1200}
+          height={1000}
         />
         <video
           src="/LushLeaf/LushLeaf_video.mov"
@@ -47,8 +47,8 @@ export default function LushLeaf() {
           <Image
             src="/LushLeaf/inspo-lushleaf.png"
             alt="project inspiration"
-            width={700}
-            height={500}
+            width={900}
+            height={600}
           />
         </div>
       </div>
@@ -58,7 +58,7 @@ export default function LushLeaf() {
           <Image
             src="/LushLeaf/colour palette lushleaf.png"
             alt="swatches of colours used in design"
-            width={700}
+            width={900}
             height={300}
           />
           <p>
@@ -143,14 +143,14 @@ export default function LushLeaf() {
             <Image
               src="/LushLeaf/wireframes1.png"
               alt="wireframes of the design"
-              width={700}
-              height={500}
+              width={900}
+              height={600}
             />
             <Image
               src="/LushLeaf/design1.png"
               alt="images of the design"
-              width={700}
-              height={500}
+              width={900}
+              height={600}
             />
           </div>
         </div>

@@ -9,8 +9,8 @@ export default function BookCovers() {
         <Image
           src="/Book covers/casual_heroing_covers.png"
           alt="presentation image of project"
-          width={1000}
-          height={700}
+          width={2000}
+          height={1800}
         />
       </div>
       <div className={styles.ideaInspoText}>
@@ -85,8 +85,8 @@ export default function BookCovers() {
         <Image
           src="/Book covers/Flame-stages.png"
           alt="stages of design"
-          width={800}
-          height={600}
+          width={1000}
+          height={800}
         />
       </div>
       <div className={styles.footer}>
