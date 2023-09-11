@@ -29,9 +29,9 @@ export default function MyPortfolio() {
             extra images, keeping only the grainy gradient background that could
             finally stand out. I also got rid of the landing/welcome page, which
             didn’t really serve any purpose. By having the information about me
-            immediately available at first glance, I think it ensures that the
-            visitor to my portfolio will actually get what they came for - who I
-            am and what I do.{" "}
+            immediately available at first glance, I ensured that the visitor to
+            my portfolio will actually get what they came for - who I am and
+            what I do.{" "}
           </p>
           <h5>Colour Palette</h5>
           <Image
@@ -47,7 +47,7 @@ export default function MyPortfolio() {
             creamy white. I purposefully chose softer, more grayish hues of
             these colours in order to avoid the website looking like a bumble
             bee. Nothing against bumble bees, I just think it looks more
-            professional like this.
+            professional this way.
           </p>
         </div>
         <div className={styles.techColour}>
@@ -88,7 +88,10 @@ export default function MyPortfolio() {
             <br /> So, in order to simplify the organization process and to make
             the page more sufficient, I decided to re-code it as a Next.js
             website. This way, I could use React-like components while keeping
-            the site SEO-friendly and quick.{" "}
+            the site SEO-friendly and quick. <br></br>
+            It was quite challenging, but I learnt the basics of Next.js and
+            improved my understanding of React hooks like useState and
+            useEffect.{" "}
           </p>
           <h6>Graphic Design</h6>
           <div className={styles.designIcons}>

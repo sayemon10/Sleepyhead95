@@ -4,17 +4,24 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  opacity: 0;
-  animation: fadeIn 1.5s ease-out forwards;
-  animation-delay: 0.5s;
+  opacity: 1;
 }
 
-@keyframes fadeIn {
+@keyframes slideInLeft {
   0% {
-    opacity: 0;
+    transform: translateX(-100%);
   }
   100% {
-    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
@@ -24,6 +31,8 @@
   justify-content: center;
   align-items: flex-end;
   width: 35%;
+  animation: slideInLeft 1.5s ease-out forwards;
+  animation-delay: 0.18s;
 }
 
 .me img {
@@ -38,22 +47,9 @@
   align-items: center;
   width: 60%;
   padding-top: 4rem;
+  animation: slideInRight 1.4s ease-out forwards;
+  animation-delay: 0.2s;
 }
-
-/* .me,
-.line,
-.aboutWrapper {
-  transform: translateY(100%);
-  opacity: 1; /* Had to change from 0 to 1 for now 
-  transition: transform 2s, opacity 2s;
-} */
-
-/* .me.visible,
-.line.visible,
-.aboutWrapper.visible {
-  transform: translateY(0);
-  opacity: 1;
-} */
 
 .aboutMe {
   display: flex;
