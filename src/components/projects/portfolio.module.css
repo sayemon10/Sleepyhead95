@@ -10,7 +10,7 @@
 .portfolioContainer h4 {
   font-family: "Behila";
   font-size: 4rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 0;
   margin-bottom: 3rem;
@@ -37,7 +37,7 @@
 .idea h5 {
   font-family: "Behila";
   font-size: 2.5rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 2rem 0;
 }
@@ -45,7 +45,7 @@
 .idea p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.3rem;
-  color: #464444;
+  color: var(--text-colour);
   font-weight: 300;
   padding: 0 5rem;
   margin-bottom: 2rem;
@@ -73,7 +73,7 @@
 .techColour h6 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 2rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 1.5rem 0;
 }
@@ -99,7 +99,7 @@
 .techColour p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.3rem;
-  color: #464444;
+  color: var(--text-colour);
   font-weight: 300;
   padding: 0 5rem;
   margin-bottom: 2rem;
@@ -124,7 +124,7 @@
 .layout h5 {
   font-family: "Behila";
   font-size: 2.5rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 1.5rem 0;
 }
@@ -146,7 +146,7 @@
 .layoutImg h6 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.5rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 1.5rem 0;
 }
@@ -162,7 +162,7 @@
 .footer p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1rem;
-  color: #464444;
+  color: var(--text-colour);
   font-weight: 300;
   padding: 0 2rem;
 }

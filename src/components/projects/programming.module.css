@@ -10,7 +10,7 @@
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.7rem;
   font-weight: 400;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin-bottom: 1.5rem;
 }
@@ -37,7 +37,7 @@
 
 .text h4 {
   margin: 0;
-  color: #464444;
+  color: var(--text-colour);
   font-size: 2.3rem;
   font-family: "Behila";
   cursor: pointer;
@@ -74,7 +74,7 @@
   z-index: 7;
   font-family: "Behila", sans-serif;
   font-size: 2rem;
-  color: #464444;
+  color: var(--text-colour);
   display: none;
   position: absolute;
   text-align: center;

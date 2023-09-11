@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #f9f7ea;
+}
+
+.container h4 {
+  font-family: "Behila";
+  font-size: 4rem;
+  color: var(--text-colour);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.topBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55rem;
+}
+
+.topBanner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ideaInspoText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 45rem;
+  margin-top: 5rem;
+}
+
+.ideaText,
+.tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+}
+
+.ideaText h5,
+.tech h5 {
+  font-family: "Behila";
+  font-size: 2.5rem;
+  color: var(--text-colour);
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.ideaText p,
+.tech p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  color: var(--text-colour);
+  font-weight: 300;
+  padding: 0 5rem;
+}
+
+.techImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 3rem 0 1.5rem 0;
+}
+
+.techImg img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 0.5rem;
+}
+
+.stages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.stages img {
+  width: 75%;
+  height: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  scroll-behavior: smooth;
+}
+
+.footer p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  color: var(--text-colour);
+  font-weight: 300;
+  padding: 0 2rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 3rem;
+  width: 8%;
+}
+
+.footer img {
+  height: 100%;
+  width: 100%;
+}

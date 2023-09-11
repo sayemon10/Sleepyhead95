@@ -4,9 +4,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.myName}>
-        <a href="#redirect">
-          <p>Janka Antalová</p>
-        </a>
+        <p>Janka Antalová</p>
       </div>
       <div className={styles.line}></div>
       <nav className={styles.nav}>

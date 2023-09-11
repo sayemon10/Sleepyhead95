@@ -10,7 +10,7 @@
 .container h4 {
   font-family: "Behila";
   font-size: 4rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 0;
   margin-bottom: 2rem;
@@ -53,7 +53,7 @@
   align-items: center;
   width: 55%;
   height: 90%;
-  border: 1px solid #464444;
+  border: 1px solid var(--text-colour);
   border-radius: 50% / 100%;
   margin: 3rem;
   padding: 1rem;
@@ -70,7 +70,7 @@
 .ideaText h5 {
   font-family: "Behila";
   font-size: 2.5rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 1.5rem 0;
 }
@@ -78,7 +78,7 @@
 .ideaInspo p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.5rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   font-weight: 300;
   padding: 0 5rem;
@@ -92,7 +92,7 @@
 .inspiration h5 {
   font-family: "Behila";
   font-size: 2.5rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 1.5rem 0;
 }
@@ -125,7 +125,7 @@
 .colour h5 {
   font-family: "Behila";
   font-size: 2.5rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 1.5rem 0;
 }
@@ -144,7 +144,7 @@
 .fonts h5 {
   font-family: "Behila";
   font-size: 2.5rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 1.5rem 0;
 }
@@ -182,7 +182,7 @@
 .layoutText h5 {
   font-family: "Behila";
   font-size: 2.5rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 1.5rem 0;
 }
@@ -190,7 +190,7 @@
 .layoutText p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.5rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: left;
   font-weight: 300;
   padding: 0 5rem;
@@ -210,7 +210,7 @@
 .layoutImg h5 {
   font-family: "Behila";
   font-size: 2.5rem;
-  color: #464444;
+  color: var(--text-colour);
   text-align: center;
   margin: 8rem 0 5rem 0;
 }
@@ -238,7 +238,7 @@
 .footer p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1rem;
-  color: #464444;
+  color: var(--text-colour);
   font-weight: 300;
   padding: 0 2rem;
 }
