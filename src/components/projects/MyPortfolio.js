@@ -4,7 +4,7 @@ import styles from "./portfolio.module.css";
 export default function MyPortfolio() {
   return (
     <section className={styles.portfolioContainer}>
-      <h4>Personal Portfolio</h4>
+      <h4 id="up">Personal Portfolio</h4>
       <div className={styles.topContainer}>
         <div className={styles.idea}>
           <h5>Idea</h5>
@@ -35,7 +35,7 @@ export default function MyPortfolio() {
           </p>
           <h5>Colour Palette</h5>
           <Image
-            src="./Images/portfolio/colour palette.png"
+            src="/portfolio/colour palette.png"
             alt="portfolio colour palette"
             className={styles.colourPalette}
             width={800}
@@ -55,25 +55,25 @@ export default function MyPortfolio() {
           <h6>Programming</h6>
           <div className={styles.techIcons}>
             <Image
-              src="./Icons/color/html color.svg"
+              src="/Icons/color/html color.svg"
               alt="html icon"
               width={30}
               height={30}
             />
             <Image
-              src="./Icons/color/css color.svg"
+              src="/Icons/color/css color.svg"
               alt="css icon"
               width={30}
               height={30}
             />
             <Image
-              src="./Icons/color/js color.svg"
+              src="/Icons/color/js color.svg"
               alt="javascript icon"
               width={30}
               height={30}
             />
             <Image
-              src="./Icons/color/next js-icon.png"
+              src="/Icons/color/next js-icon.png"
               alt="next.js icon"
               width={30}
               height={30}
@@ -93,13 +93,13 @@ export default function MyPortfolio() {
           <h6>Graphic Design</h6>
           <div className={styles.designIcons}>
             <Image
-              src="./Icons/color/ai color.svg"
+              src="/Icons/color/ai color.svg"
               alt="adobe illustrator icon"
               width={30}
               height={30}
             />
             <Image
-              src="./Icons/color/ps color.svg"
+              src="/Icons/color/ps color.svg"
               alt="adobe photoshop icon"
               width={30}
               height={30}
@@ -119,39 +119,50 @@ export default function MyPortfolio() {
         <div className={styles.layoutImg}>
           <h6>Version 1</h6>
           <Image
-            src="./Images/portfolio/stage1.1.png"
+            src="/portfolio/stage1.1.png"
             alt="stage 1 of portfolio design"
             width={600}
             height={400}
           />
           <Image
-            src="./Images/portfolio/stage1.2.png"
+            src="/portfolio/stage1.2.png"
             alt="stage 1.2 of portfolio design"
             width={600}
             height={400}
           />
           <h6>Version 1 - Mobile</h6>
           <Image
-            src="./Images/portfolio/stage1 mobile.png"
+            src="/portfolio/stage1 mobile.png"
             alt="stage 1 mobile of portfolio design"
             width={600}
             height={400}
           />
           <h6>Version 2</h6>
           <Image
-            src="./Images/portfolio/stage2.png"
+            src="/portfolio/stage2.png"
             alt="stage 2 of portfolio design"
             width={600}
             height={400}
           />
           <h6>Version 3</h6>
           <Image
-            src="./Images/portfolio/stage3.png"
+            src="/portfolio/stage3.png"
             alt="stage 3 of portfolio design"
             width={600}
             height={400}
           />
         </div>
+      </div>
+      <div className={styles.footer}>
+        <p>Button image credit: Photo by Thomas Lefebvre on Unsplash.</p>
+        <a href="#up">
+          <Image
+            src="/Icons/b&w/2931161_arrow_top_up_direction_move_icon.png"
+            alt="back to top button"
+            width={30}
+            height={30}
+          />
+        </a>
       </div>
     </section>
   );

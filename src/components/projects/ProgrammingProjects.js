@@ -42,7 +42,10 @@ export default function ProgrammingProjects() {
         )}
       </div>
 
-      <div className={styles.innerWrapper}>
+      <div
+        className={styles.innerWrapper}
+        onClick={() => setOpenedProject("Personal Portfolio")}
+      >
         <div className={styles.text}>
           <h4>Personal Portfolio</h4>
         </div>

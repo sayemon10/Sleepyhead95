@@ -5,7 +5,7 @@ export default function Ready() {
   return (
     <section className={styles.content}>
       <div className={styles.topBanner}>
-        <h4>Read-y</h4>
+        <h4 id="up">Read-y</h4>
         <p>(Work in progress)</p>
         <div className={styles.videos}>
           <video
@@ -206,6 +206,17 @@ export default function Ready() {
             height={600}
           />
         </div>
+      </div>
+      <div className={styles.footer}>
+        <p>Button image credit: Photo by mymind on Unsplash.</p>
+        <a href="#up">
+          <Image
+            src="/Icons/b&w/2931161_arrow_top_up_direction_move_icon.png"
+            alt="back to top button"
+            width={30}
+            height={30}
+          />
+        </a>
       </div>
     </section>
   );
