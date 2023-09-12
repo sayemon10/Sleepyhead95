@@ -197,3 +197,70 @@
     font-size: 2.2rem;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .skillsContainer {
+    width: 100%;
+  }
+  .wrapper {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .wrapper img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .wrapper .bw {
+    opacity: 0;
+  }
+
+  .wrapper .colourful {
+    opacity: 1;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skillsWrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .skillsContainer {
+    border-radius: 100% / 50%;
+    height: 25rem;
+  }
+
+  .skills h2 {
+    font-size: 2rem;
+  }
+  .wrapper {
+    width: 3rem;
+    height: 3rem;
+  }
+  .wrapper img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .skillsContainer {
+    height: 20rem;
+  }
+  .skills h2 {
+    font-size: 1.5rem;
+  }
+  .line {
+    height: 3rem;
+  }
+  .wrapper {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .wrapper img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}

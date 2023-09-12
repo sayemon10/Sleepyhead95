@@ -142,6 +142,25 @@
     font-size: 1.5rem;
   }
   .innerWrapper {
-    height: 25rem;
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .graphicDesign {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+  .innerWrapper {
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .graphicDesign {
+    width: 100%;
+  }
+  .innerWrapper {
+    height: 15rem;
   }
 }

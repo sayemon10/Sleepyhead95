@@ -4,7 +4,8 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.myName}>
-        <p>Janka Antalová</p>
+        <p className={styles.fullName}>Janka Antalová</p>
+        <p className={styles.JA}>JA</p>
       </div>
       <div className={styles.line}></div>
       <nav className={styles.nav}>

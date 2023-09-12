@@ -110,9 +110,60 @@
   .line {
     width: 5%;
   }
-  .contactIcons {
+  .contact_icons {
     width: 45%;
     height: 4.5rem;
     justify-content: center;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .contact {
+    justify-content: center;
+  }
+  .contact h2 {
+    margin: 0;
+  }
+  .contact_icons a {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .contact_icons img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .contact {
+    width: 40%;
+  }
+  .contact h2 {
+    font-size: 1.1rem;
+  }
+  .line {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .line {
+    display: none;
+  }
+  .footer {
+    justify-content: space-between;
+  }
+  .contact h2 {
+    font-size: 0.9rem;
+  }
+  .contact_icons {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding: 1rem;
   }
 }

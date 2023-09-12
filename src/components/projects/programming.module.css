@@ -142,6 +142,34 @@
     font-size: 1.5rem;
   }
   .innerWrapper {
-    height: 25rem;
+    height: 15rem;
+  }
+  .innerWrapper1 {
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .programming {
+    width: 95%;
+    margin-bottom: 4rem;
+  }
+  .innerWrapper {
+    height: 20rem;
+  }
+  .innerWrapper1 {
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .programming {
+    width: 100%;
+  }
+  .innerWrapper {
+    height: 15rem;
+  }
+  .innerWrapper1 {
+    height: 15rem;
   }
 }

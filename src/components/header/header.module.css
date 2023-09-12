@@ -32,6 +32,9 @@
   font-weight: 400;
   color: var(--text-colour);
 }
+.JA {
+  display: none;
+}
 
 .line {
   width: 40%;
@@ -141,10 +144,80 @@
   .myName p {
     font-size: 0.9rem;
   }
+  .nav {
+    justify-content: center;
+  }
   .navLinks a {
     font-size: 0.9rem;
   }
   .navLinks {
     padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .navLinks {
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .navLinks {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .fullName {
+    display: none;
+  }
+  .JA {
+    display: flex;
+    justify-content: center;
+  }
+  .myName {
+    width: 15%;
+  }
+  .line {
+    width: 15%;
+  }
+  .nav {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .myName {
+    width: 20%;
+    justify-content: center;
+  }
+  .line {
+    width: 20%;
+  }
+  .nav {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .myName {
+    padding: 0;
+    justify-content: center;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 1rem;
+  }
+  .myName {
+    width: 45%;
+  }
+  .line {
+    width: 20%;
+  }
+  .nav {
+    width: 80%;
   }
 }

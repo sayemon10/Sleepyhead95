@@ -133,3 +133,26 @@
     height: auto;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .certificate {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .certificate {
+    width: 17rem;
+  }
+  .certificate h3 {
+    font-size: 1.2rem;
+  }
+  .certificate p {
+    font-size: 0.9rem;
+  }
+  .button {
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 0.9rem;
+  }
+}

@@ -71,3 +71,26 @@
     margin-bottom: 4rem;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .projectsWrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .projectsWrapper {
+    margin-bottom: 2rem;
+  }
+  .redirect {
+    height: 3rem;
+    width: 80%;
+  }
+  .redirect a {
+    padding: 0;
+  }
+  .redirect img {
+    width: 2rem;
+    height: auto;
+  }
+}

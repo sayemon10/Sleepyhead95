@@ -300,3 +300,42 @@
     margin-top: 2rem;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .me img {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .aboutMe {
+    border-radius: 100% / 50%;
+  }
+  .aboutWrapper {
+    padding-top: 2rem;
+  }
+  .workContact {
+    width: 80%;
+    height: 30%;
+  }
+  .contacts img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    padding-top: 6rem;
+  }
+  .me img {
+    width: 85%;
+  }
+  .aboutMe h2 {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+  .workContact {
+    width: 95%;
+  }
+}
