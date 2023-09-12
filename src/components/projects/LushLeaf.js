@@ -20,6 +20,7 @@ export default function LushLeaf() {
           muted
           playsInline
           type="video/quicktime"
+          priority={true}
         ></video>
       </div>
       <div className={styles.ideaInspo}>

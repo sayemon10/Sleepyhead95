@@ -76,3 +76,60 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+/* @media screen and (max-width: 2560px) {
+  .certificate {
+    width: 40rem;
+    height: 20rem;
+  }
+  .certificate h3 {
+    font-size: 2.5rem;
+  }
+  .certificate p {
+    font-size: 1.8rem;
+  }
+  .button {
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+} */
+
+@media screen and (max-width: 1170px) {
+  .certificate {
+    width: 35rem;
+  }
+  .certificate p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+  .certificate p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .certificate {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .certificate {
+    width: 25rem;
+  }
+  .modalContent {
+    width: 90%;
+  }
+  .modalContent img {
+    width: 100%;
+    height: auto;
+  }
+}

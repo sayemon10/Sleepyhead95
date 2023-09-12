@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 50%;
+  height: auto;
 }
 
 .programming h3 {
@@ -99,4 +100,48 @@
 .imgWrapper1:hover h4 {
   display: block;
   opacity: 1;
+}
+
+/* @media screen and (max-width: 2560px) {
+  .programming h3 {
+    font-size: 2.5rem;
+  }
+  .innerWrapper {
+    width: 70%;
+  }
+} */
+
+@media screen and (max-width: 1024px) {
+  .imgWrapper {
+    width: 70%;
+    height: 16rem;
+  }
+  .imgWrapper1 {
+    height: 16rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .programming h3 {
+    font-size: 1.5rem;
+  }
+  .imgWrapper {
+    width: 75%;
+    height: 13rem;
+  }
+  .imgWrapper1 {
+    height: 13rem;
+  }
+  .text h4 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .text h4 {
+    font-size: 1.5rem;
+  }
+  .innerWrapper {
+    height: 25rem;
+  }
 }

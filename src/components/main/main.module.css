@@ -32,7 +32,6 @@
   align-items: flex-end;
   width: 35%;
   animation: slideInLeft 1.5s ease-out forwards;
-  animation-delay: 0.18s;
 }
 
 .me img {
@@ -46,9 +45,9 @@
   justify-content: center;
   align-items: center;
   width: 60%;
+  height: 100vh;
   padding-top: 4rem;
   animation: slideInRight 1.4s ease-out forwards;
-  animation-delay: 0.2s;
 }
 
 .aboutMe {
@@ -148,4 +147,156 @@
 .contacts img:hover {
   cursor: pointer;
   transform: scale(1.3);
+}
+
+/* @media screen and (max-width: 2560px) {
+  .aboutWrapper {
+    height: 100vh;
+  }
+  .aboutMe {
+    height: 40%;
+  }
+  .workContact {
+    height: 22%;
+  }
+  .aboutMe h2 {
+    font-size: 4rem;
+  }
+  .aboutMe p {
+    font-size: 1.8rem;
+  }
+  .workContact h3 {
+    font-size: 2.5rem;
+    padding: 2rem 0 0 0;
+  }
+  .workContact p {
+    font-size: 1.6rem;
+  }
+  .connect {
+    font-size: 1.6rem;
+  }
+  .contacts img {
+    width: 3rem;
+    height: 3rem;
+  }
+} */
+
+@media screen and (max-width: 1465px) {
+  .aboutMe {
+    padding: 0;
+    height: 50%;
+  }
+  .aboutMe h2 {
+    margin-top: 1rem;
+  }
+  .aboutMe p {
+    margin: 2.5rem 3rem;
+  }
+  .contacts {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .aboutMe {
+    width: 80%;
+  }
+  .workContact {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .aboutMe h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .me img {
+    width: 95%;
+    height: 100%;
+  }
+  .aboutMe p {
+    font-size: 1.1rem;
+  }
+  .workContact p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .me {
+    width: 40%;
+  }
+  .me img {
+    width: 90%;
+    height: 95%;
+  }
+  .aboutMe p {
+    font-size: 1rem;
+  }
+  .aboutMe h2 {
+    font-size: 1.8rem;
+  }
+  .workContact {
+    width: 65%;
+    padding: 2rem 1rem;
+  }
+  .workContact p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMe p {
+    font-size: 0.9rem;
+  }
+  .aboutMe h2 {
+    font-size: 1.5rem;
+  }
+  .workContact {
+    width: 70%;
+  }
+  .workContact p {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
+  .workContact h3 {
+    font-size: 1.2rem;
+  }
+  .connect {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .main {
+    flex-direction: column;
+    height: auto;
+    padding-top: 8rem;
+  }
+  .me {
+    width: 80%;
+    align-items: center;
+    height: 30%;
+  }
+  .me img {
+    width: 65%;
+    height: 100%;
+  }
+  .aboutWrapper {
+    height: 45%;
+    width: 90%;
+  }
+  .workContact {
+    width: 65%;
+    height: 25%;
+  }
+  .aboutMe {
+    width: 95%;
+  }
+  .aboutMe h2 {
+    margin-top: 2rem;
+  }
 }

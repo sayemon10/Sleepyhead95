@@ -101,3 +101,47 @@
   display: block;
   opacity: 1;
 }
+
+/* @media screen and (max-width: 2560px) {
+  .graphicDesign h3 {
+    font-size: 2.5rem;
+  }
+  .innerWrapper {
+    width: 70%;
+  }
+} */
+
+@media screen and (max-width: 1024px) {
+  .designImgWrapper {
+    width: 70%;
+    height: 16rem;
+  }
+  .designImgWrapper1 {
+    height: 16rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .graphicDesign h3 {
+    font-size: 1.5rem;
+  }
+  .designImgWrapper {
+    width: 75%;
+    height: 13rem;
+  }
+  .designImgWrapper1 {
+    height: 13rem;
+  }
+  .text h4 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .text h4 {
+    font-size: 1.5rem;
+  }
+  .innerWrapper {
+    height: 25rem;
+  }
+}

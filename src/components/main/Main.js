@@ -11,6 +11,7 @@ export default function Main() {
           alt="picture of Janka Antalová"
           width={500}
           height={550}
+          priority={true}
         />
       </div>
       <div className={styles.aboutWrapper}>

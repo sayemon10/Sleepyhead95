@@ -16,6 +16,7 @@ export default function Ready() {
             muted
             playsInline
             type="video/quicktime"
+            priority={true}
           ></video>
           <video
             src="/Ready/Desktop video ready.mov"
@@ -25,6 +26,7 @@ export default function Ready() {
             muted
             playsInline
             type="video/quicktime"
+            priority={true}
           ></video>
         </div>
       </div>

@@ -11,6 +11,7 @@ export default function BookCovers() {
           alt="presentation image of project"
           width={2000}
           height={1800}
+          priority={true}
         />
       </div>
       <div className={styles.ideaInspoText}>

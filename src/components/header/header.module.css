@@ -33,10 +33,6 @@
   color: var(--text-colour);
 }
 
-.myName a {
-  text-decoration: none;
-}
-
 .line {
   width: 40%;
   height: 0.2px;
@@ -55,7 +51,7 @@
   gap: 2.5rem;
   justify-content: flex-end;
   align-items: center;
-  width: 40rem;
+  width: 100%;
   border: 1px solid #464444;
   border-radius: 50px;
   height: 3rem;
@@ -79,4 +75,76 @@
 .navLinks li:hover {
   cursor: pointer;
   transform: scale(1.2);
+}
+
+/* @media screen and (max-width: 2560px) {
+  .header {
+    height: 8rem;
+  }
+  .myName {
+    height: 5rem;
+  }
+  .navLinks {
+    height: 5rem;
+  }
+  .myName p {
+    font-size: 2rem;
+  }
+  .navLinks a {
+    font-size: 2rem;
+  }
+} */
+
+@media screen and (max-width: 1024px) {
+  .myName {
+    width: 30%;
+  }
+  .line {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .nav {
+    width: 50%;
+  }
+  .myName {
+    width: 30%;
+  }
+  .line {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .myName p {
+    font-size: 1.1rem;
+  }
+  .navLinks a {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .nav {
+    width: 55%;
+  }
+  .line {
+    width: 10%;
+  }
+  .myName {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .myName p {
+    font-size: 0.9rem;
+  }
+  .navLinks a {
+    font-size: 0.9rem;
+  }
+  .navLinks {
+    padding-top: 0;
+  }
 }

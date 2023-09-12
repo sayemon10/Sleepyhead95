@@ -43,11 +43,76 @@
 }
 
 .contact_icons img {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .contact_icons img:hover {
   cursor: pointer;
   transform: scale(1.3);
+}
+
+/* @media screen and (max-width: 2560px) {
+  .contact {
+    height: 7rem;
+  }
+  .contact_icons {
+    height: 7rem;
+  }
+  .contact h2 {
+    font-size: 2.5rem;
+  }
+  .contact_icons img {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+} */
+
+@media screen and (max-width: 1290px) {
+  .contact_icons img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact_icons {
+    width: 27%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .contact_icons {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_icons {
+    width: 40%;
+  }
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contact h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .contact {
+    width: 50%;
+    height: 4.5rem;
+  }
+  .line {
+    width: 5%;
+  }
+  .contactIcons {
+    width: 45%;
+    height: 4.5rem;
+    justify-content: center;
+  }
 }
