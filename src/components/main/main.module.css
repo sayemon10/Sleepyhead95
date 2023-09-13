@@ -183,17 +183,27 @@
 
 @media screen and (max-width: 1465px) {
   .aboutMe {
+    width: 80%;
     padding: 0;
     height: 50%;
   }
   .aboutMe h2 {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
   .aboutMe p {
     margin: 2.5rem 3rem;
   }
   .contacts {
     width: 70%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .aboutMe {
+    width: 80%;
+  }
+  .aboutMe h2 {
+    font-size: 2.6rem;
   }
 }
 
@@ -326,7 +336,7 @@
 
 @media screen and (max-width: 320px) {
   .main {
-    padding-top: 6rem;
+    padding-top: 7rem;
   }
   .me img {
     width: 85%;

@@ -166,4 +166,7 @@
   .footer {
     padding: 1rem;
   }
+  .contact_icons {
+    border: none;
+  }
 }

@@ -5,7 +5,7 @@ export default function LushLeaf() {
   return (
     <section className={styles.container}>
       <h4 id="up">LushLeaf</h4>
-      <div class={styles.topBanner}>
+      <div className={styles.topBanner}>
         <Image
           src="/LushLeaf/lusheaf8.png"
           alt="presentation image of project"
@@ -20,7 +20,6 @@ export default function LushLeaf() {
           muted
           playsInline
           type="video/quicktime"
-          priority={true}
         ></video>
       </div>
       <div className={styles.ideaInspo}>

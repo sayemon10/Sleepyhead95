@@ -33,9 +33,9 @@ export default function ProgrammingProjects() {
         {openedProject === "Read-y" && (
           <Sidebar
             isOpen={true}
-            onClick={() => {
-              console.log("Close button clicked");
-              onClose(null);
+            onClick={(e) => {
+              e.stopPropagation();
+              setOpenedProject(null);
             }}
           >
             <Ready />
@@ -62,9 +62,9 @@ export default function ProgrammingProjects() {
         {openedProject === "Personal Portfolio" && (
           <Sidebar
             isOpen={true}
-            onClick={() => {
-              console.log("Close button clicked");
-              onClose(null);
+            onClick={(e) => {
+              e.stopPropagation();
+              setOpenedProject(null);
             }}
           >
             <MyPortfolio />
@@ -91,9 +91,9 @@ export default function ProgrammingProjects() {
         {openedProject === "OneCom" && (
           <Sidebar
             isOpen={true}
-            onClick={() => {
-              console.log("Close button clicked");
-              onClose(null);
+            onClick={(e) => {
+              e.stopPropagation();
+              setOpenedProject(null);
             }}
           >
             <OneCom />

@@ -32,9 +32,9 @@ export default function GraphicProjects() {
         {openedProject === "LushLeaf" && (
           <Sidebar
             isOpen={true}
-            onClick={() => {
-              console.log("Close button clicked");
-              onClose(null);
+            onClick={(e) => {
+              e.stopPropagation();
+              setOpenedProject(null);
             }}
           >
             <LushLeaf />
@@ -61,9 +61,9 @@ export default function GraphicProjects() {
         {openedProject === "Book Covers" && (
           <Sidebar
             isOpen={true}
-            onClick={() => {
-              console.log("Close button clicked");
-              onClose(null);
+            onClick={(e) => {
+              e.stopPropagation();
+              setOpenedProject(null);
             }}
           >
             <BookCovers />
@@ -90,9 +90,9 @@ export default function GraphicProjects() {
         {openedProject === "Assist" && (
           <Sidebar
             isOpen={true}
-            onClick={() => {
-              console.log("Close button clicked");
-              onClose(null);
+            onClick={(e) => {
+              e.stopPropagation();
+              setOpenedProject(null);
             }}
           >
             <Assist />

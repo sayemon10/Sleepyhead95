@@ -187,6 +187,10 @@
 }
 
 @media screen and (max-width: 430px) {
+  .header {
+    padding: 0 1rem;
+    margin: 1rem 0;
+  }
   .myName {
     width: 20%;
     justify-content: center;
@@ -209,7 +213,8 @@
 
 @media screen and (max-width: 320px) {
   .header {
-    padding: 1rem;
+    padding: 0 1rem;
+    margin: 1rem 0;
   }
   .myName {
     width: 45%;
