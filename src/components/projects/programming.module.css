@@ -122,6 +122,16 @@
 }
 
 @media screen and (max-width: 768px) {
+  .imgWrapper h4,
+  .imgWrapper1 h4 {
+    font-size: 1.2rem;
+    display: flex;
+    opacity: 1;
+  }
+  .imgWrapper:hover h4,
+  .imgWrapper1:hover h4 {
+    opacity: 0;
+  }
   .programming h3 {
     font-size: 1.5rem;
   }

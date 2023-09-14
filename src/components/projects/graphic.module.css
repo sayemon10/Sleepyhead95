@@ -132,6 +132,16 @@
   .designImgWrapper1 {
     height: 13rem;
   }
+  .designImgWrapper h4,
+  .designImgWrapper1 h4 {
+    font-size: 1.2rem;
+    display: flex;
+    opacity: 1;
+  }
+  .designImgWrapper:hover h4,
+  .designImgWrapper1:hover h4 {
+    opacity: 0;
+  }
   .text h4 {
     font-size: 2rem;
   }
