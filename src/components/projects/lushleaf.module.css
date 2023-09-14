@@ -18,23 +18,20 @@
 
 .topBanner {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50rem;
+  height: auto;
   background-color: #000;
 }
 
 .topBanner img {
   height: 100%;
-  width: 65%;
-  position: relative;
+  width: 75%;
 }
 .topBanner video {
   height: 100%;
-  position: absolute;
-  z-index: 3;
-  right: 6rem;
+  width: 25%;
 }
 
 .ideaInspo {
@@ -65,7 +62,7 @@
   justify-content: center;
   align-items: center;
   width: 40%;
-  height: 100%;
+  height: auto;
 }
 .ideaText h5 {
   font-family: "Behila";
@@ -117,7 +114,7 @@
 }
 
 .colour img {
-  height: 16%;
+  height: auto;
   width: 80%;
   margin-top: 3rem;
 }
@@ -137,8 +134,7 @@
   color: #464444;
   text-align: center;
   font-weight: 300;
-  padding: 0 5rem;
-  margin-top: 3rem;
+  padding: 1rem 5rem;
 }
 
 .fonts h5 {
@@ -146,7 +142,7 @@
   font-size: 2.5rem;
   color: var(--text-colour);
   text-align: center;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0;
 }
 
 .fonts {
@@ -241,6 +237,7 @@
   color: var(--text-colour);
   font-weight: 300;
   padding: 0 2rem;
+  text-align: left;
 }
 
 .footer a {
@@ -252,4 +249,119 @@
 .footer img {
   height: 100%;
   width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .fonts h5,
+  .ideaText h5,
+  .layoutImg h5,
+  .colour h5,
+  .inspiration h5,
+  .layoutText h5 {
+    font-size: 2rem;
+  }
+  .ideaInspo p,
+  .colour p,
+  .fonts p,
+  .layoutText p {
+    font-size: 1.3rem;
+  }
+  .layoutText {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ideaInspo {
+    flex-direction: column;
+    height: auto;
+  }
+  .ideaText {
+    width: 80%;
+    height: auto;
+  }
+  .inspiration {
+    width: 80%;
+  }
+  .colourFontSection {
+    flex-direction: column;
+    height: auto;
+  }
+  .colour {
+    width: 80%;
+    height: auto;
+  }
+  .fonts {
+    width: 70%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .bottomImg {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .layoutImg img {
+    height: auto;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .layoutText {
+    width: 100%;
+  }
+  .layoutImg img {
+    width: 100%;
+  }
+  .ideaText {
+    width: 90%;
+  }
+  .inspiration {
+    width: 90%;
+  }
+  .colour {
+    width: 90%;
+  }
+  .fonts {
+    width: 80%;
+  }
+  .footer p {
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container h4 {
+    font-size: 3rem;
+  }
+  .topBanner img {
+    display: none;
+  }
+  .topBanner video {
+    height: 100%;
+    width: 80%;
+  }
+  .ideaText,
+  .fonts {
+    border-radius: 100% / 50%;
+  }
+  .ideaInspo p,
+  .fonts p,
+  .colour p,
+  .layoutText p {
+    padding: 0 2rem 2rem;
+  }
+  .inspiration img {
+    width: 90%;
+  }
+  .fonts h5,
+  .ideaText h5,
+  .layoutImg h5,
+  .colour h5,
+  .inspiration h5,
+  .layoutText h5 {
+    font-size: 1.5rem;
+  }
 }

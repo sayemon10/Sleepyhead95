@@ -22,7 +22,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 55rem;
+  height: auto;
 }
 
 .topBanner img {
@@ -30,13 +30,16 @@
   height: 100%;
   object-fit: cover;
 }
+.phoneImg {
+  display: none;
+}
 
 .ideaInspoText {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
-  height: 45rem;
+  height: auto;
   margin-top: 5rem;
 }
 
@@ -113,16 +116,88 @@
   color: var(--text-colour);
   font-weight: 300;
   padding: 0 2rem;
+  text-align: left;
 }
 
 .footer a {
   display: flex;
   justify-content: flex-end;
   padding: 0 3rem;
-  width: 8%;
 }
 
 .footer img {
   height: 100%;
   width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .stages img {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container h4 {
+    font-size: 3rem;
+  }
+  .ideaInspoText {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ideaText,
+  .tech {
+    width: 80%;
+  }
+  .ideaText p,
+  .tech p {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topBanner {
+    display: none;
+  }
+  .phoneImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .phoneImg img {
+    width: 100%;
+    height: auto;
+  }
+  .ideaText,
+  .tech {
+    width: 90%;
+  }
+  .ideaText p,
+  .tech p {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container h4 {
+    font-size: 2.5rem;
+  }
+  .ideaText,
+  .tech {
+    width: 100%;
+  }
+  .ideaText h5,
+  .tech h5 {
+    font-size: 2rem;
+  }
+  .ideaText p,
+  .tech p {
+    font-size: 1.2rem;
+  }
+  .footer p {
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+  }
 }

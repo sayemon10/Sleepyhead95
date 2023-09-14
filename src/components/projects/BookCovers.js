@@ -13,6 +13,26 @@ export default function BookCovers() {
           height={1800}
         />
       </div>
+      <div className={styles.phoneImg}>
+        <Image
+          src="/Book covers/CH volume I flame.png"
+          alt="volume 1 cover"
+          width={1000}
+          height={800}
+        />
+        <Image
+          src="/Book covers/CH volume 2 rose.png"
+          alt="volume 2 cover"
+          width={1000}
+          height={800}
+        />
+        <Image
+          src="/Book covers/CH volume III cover FINAL.png"
+          alt="volume 3 cover"
+          width={1000}
+          height={800}
+        />
+      </div>
       <div className={styles.ideaInspoText}>
         <div className={styles.ideaText}>
           <h5>Idea</h5>
