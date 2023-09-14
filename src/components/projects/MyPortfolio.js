@@ -33,6 +33,18 @@ export default function MyPortfolio() {
             my portfolio will actually get what they came for - who I am and
             what I do.{" "}
           </p>
+          <p>
+            Click{" "}
+            <strong>
+              <a
+                href="https://github.com/Sleepyhead95/my_portfolio"
+                target="_blank"
+              >
+                here
+              </a>
+            </strong>{" "}
+            for project code.
+          </p>
           <h5>Colour Palette</h5>
           <Image
             src="/portfolio/colour palette.png"
@@ -91,7 +103,7 @@ export default function MyPortfolio() {
             the site SEO-friendly and quick. <br></br>
             It was quite challenging, but I learnt the basics of Next.js and
             improved my understanding of React hooks like useState and
-            useEffect.{" "}
+            useEffect. It also helped me improve my skills for responsiveness.{" "}
           </p>
           <h6>Graphic Design</h6>
           <div className={styles.designIcons}>
