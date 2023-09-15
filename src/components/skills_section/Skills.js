@@ -191,6 +191,22 @@ export default function Skills() {
                   height={50}
                 />
               </div>
+              <div className={styles.wrapper}>
+                <Image
+                  className={styles.bw}
+                  src="/Icons/b&w/next.js_bw.png"
+                  alt="black and white next.js icon"
+                  width={50}
+                  height={50}
+                />
+                <Image
+                  className={styles.colourful}
+                  src="/Icons/color/next js-icon.png"
+                  alt="id icon colorful"
+                  width={50}
+                  height={50}
+                />
+              </div>
             </div>
           </div>
         </div>

@@ -352,6 +352,7 @@
   .colour p,
   .layoutText p {
     padding: 0 2rem 2rem;
+    font-size: 1.2rem;
   }
   .inspiration img {
     width: 90%;
