@@ -137,6 +137,7 @@
     font-size: 1.2rem;
     display: flex;
     opacity: 1;
+    z-index: 1;
   }
   .designImgWrapper:hover h4,
   .designImgWrapper1:hover h4 {
@@ -174,3 +175,8 @@
     height: 15rem;
   }
 }
+
+/* .example {
+  font-family: "gyst-variable",sans-serif;
+  font-variation-settings: 'wght' 700;
+} */

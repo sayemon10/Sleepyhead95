@@ -1,22 +1,23 @@
 :root {
-  --font-titles: "Behila", sans-serif, "Balkeno", sans-serif;
-
   --text-colour: #464444;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Behila", sans-serif;
   src: url(/fonts/Behila_2.ttf);
-}
+} */
+/* 
 @font-face {
   font-family: "Balkeno", sans-serif;
-  src: url(/fonts/Balkeno.ttf);
-}
+  src: url(/fonts/balkeno-webfont.woff) format("woff"),
+    url(/public/fonts/balkeno-webfont.woff2) format("woff2"),
+    url(/fonts/Balkeno.ttf) format("truetype");
+} */
 
-@font-face {
+/* @font-face {
   font-family: "Josefin Sans", sans-serif;
   src: url(/fonts/JosefinSans-VariableFont_wght.ttf);
-}
+} */
 
 * {
   box-sizing: border-box;

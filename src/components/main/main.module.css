@@ -63,9 +63,10 @@
 }
 
 .aboutMe h2 {
-  font-family: "Behila", sans-serif;
+  font-family: "gyst-variable", sans-serif;
+  font-variation-settings: "wght" 700;
   font-size: 3rem;
-  font-weight: 200;
+
   color: var(--text-colour);
   text-align: center;
   margin: 0;
@@ -327,6 +328,9 @@
 @media screen and (max-width: 375px) {
   .aboutMe {
     border-radius: 100% / 50%;
+  }
+  .aboutMe h2 {
+    margin-top: 3rem;
   }
   .aboutWrapper {
     padding-top: 2rem;
