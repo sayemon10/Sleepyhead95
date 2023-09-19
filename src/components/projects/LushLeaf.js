@@ -45,7 +45,7 @@ export default function LushLeaf() {
         <div className={styles.inspiration}>
           <h5>Inspiration</h5>
           <Image
-            src="/LushLeaf/inspo-lushleaf.png"
+            src="/LushLeaf/inspo.png"
             alt="project inspiration"
             width={900}
             height={600}
@@ -56,7 +56,7 @@ export default function LushLeaf() {
         <div className={styles.colour}>
           <h5>Colour Palette</h5>
           <Image
-            src="/LushLeaf/colour palette lushleaf.png"
+            src="/LushLeaf/colour palette.png"
             alt="swatches of colours used in design"
             width={900}
             height={300}
