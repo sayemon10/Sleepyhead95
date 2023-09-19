@@ -63,10 +63,9 @@
 }
 
 .aboutMe h2 {
-  font-family: "gyst-variable", sans-serif;
-  font-variation-settings: "wght" 700;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 3rem;
-
+  font-weight: 400;
   color: var(--text-colour);
   text-align: center;
   margin: 0;

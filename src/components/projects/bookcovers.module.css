@@ -9,7 +9,7 @@
 }
 
 .container h4 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 4rem;
   color: var(--text-colour);
   text-align: center;
@@ -55,7 +55,7 @@
 
 .ideaText h5,
 .tech h5 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
   color: var(--text-colour);
   text-align: center;

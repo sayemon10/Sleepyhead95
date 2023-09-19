@@ -10,14 +10,16 @@
 @font-face {
   font-family: "Balkeno", sans-serif;
   src: url(/fonts/balkeno-webfont.woff) format("woff"),
-    url(/public/fonts/balkeno-webfont.woff2) format("woff2"),
+    url(/fonts/balkeno-webfont.woff2) format("woff2"),
     url(/fonts/Balkeno.ttf) format("truetype");
 } */
 
-/* @font-face {
+@font-face {
   font-family: "Josefin Sans", sans-serif;
-  src: url(/fonts/JosefinSans-VariableFont_wght.ttf);
-} */
+  src: url(/fonts/josefinsans-variablefont_wght-webfont.woff) format("woff"),
+    url(/fonts/josefinsans-variablefont_wght-webfont.woff2) format("woff2"),
+    url(/fonts/JosefinSans-VariableFont_wght.ttf) format("truetype");
+}
 
 * {
   box-sizing: border-box;
@@ -31,6 +33,7 @@ html {
 }
 
 body {
+  font-family: "Josenif Sans", sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;

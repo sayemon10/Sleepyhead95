@@ -8,7 +8,7 @@
 }
 
 .portfolioContainer h4 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 4rem;
   color: var(--text-colour);
   text-align: center;
@@ -35,7 +35,7 @@
 }
 
 .idea h5 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
   color: var(--text-colour);
   text-align: center;
@@ -63,7 +63,7 @@
 }
 
 .techColour h5 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
   color: #464444;
   text-align: center;
@@ -122,7 +122,7 @@
 }
 
 .layout h5 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
   color: var(--text-colour);
   text-align: center;

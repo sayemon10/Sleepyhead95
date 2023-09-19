@@ -39,7 +39,7 @@
   margin: 0;
   color: var(--text-colour);
   font-size: 2.3rem;
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   cursor: pointer;
   text-align: center;
 }
@@ -72,7 +72,7 @@
 .designImgWrapper h4,
 .designImgWrapper1 h4 {
   z-index: 7;
-  font-family: "Behila", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2rem;
   color: var(--text-colour);
   display: none;
@@ -175,8 +175,3 @@
     height: 15rem;
   }
 }
-
-/* .example {
-  font-family: "gyst-variable",sans-serif;
-  font-variation-settings: 'wght' 700;
-} */

@@ -18,7 +18,7 @@
 }
 
 .topBanner h4 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 4rem;
   color: var(--text-colour);
   text-align: center;
@@ -73,7 +73,7 @@
 }
 
 .idea h5 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
   color: var(--text-colour);
   text-align: center;
@@ -99,7 +99,7 @@
 }
 
 .colour h5 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
   color: var(--text-colour);
   text-align: center;
@@ -132,7 +132,7 @@
 }
 
 .tech h5 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
   color: var(--text-colour);
   text-align: center;
@@ -189,7 +189,7 @@
 }
 
 .illustrationsContainer h5 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
   color: var(--text-colour);
   text-align: center;
@@ -229,7 +229,7 @@
 }
 
 .layoutContainer h5 {
-  font-family: "Behila";
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
   color: var(--text-colour);
   text-align: center;
