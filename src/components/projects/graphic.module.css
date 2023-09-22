@@ -7,7 +7,6 @@
 }
 
 .graphicDesign h3 {
-  font-family: "Josefin Sans", sans-serif;
   font-size: 1.7rem;
   font-weight: 400;
   color: var(--text-colour);
@@ -39,7 +38,6 @@
   margin: 0;
   color: var(--text-colour);
   font-size: 2.3rem;
-  font-family: "Josefin Sans", sans-serif;
   cursor: pointer;
   text-align: center;
 }
@@ -72,7 +70,6 @@
 .designImgWrapper h4,
 .designImgWrapper1 h4 {
   z-index: 7;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 2rem;
   color: var(--text-colour);
   display: none;

@@ -1,10 +1,10 @@
 import styles from "./globals.css";
-// import { Josefin_Sans } from "next/font/google";
+import { Josefin_Sans } from "next/font/google";
 import Head from "next/head";
 
-// const inter = Josefin_Sans({
-//   subsets: ["latin"],
-// });
+const josefinSans = Josefin_Sans({
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Janka's Portfolio",
@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={josefinSans.className}>
       <Head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
