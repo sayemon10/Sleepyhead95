@@ -37,7 +37,7 @@ export default function Footer() {
             height={30}
           />
         </Link>
-        <Link href="mailto: januska.antalova@gmail.com">
+        <Link href="mailto:januska.antalova@gmail.com">
           <Image
             src="/Icons/b&w/3586360_email_envelope_mail_send_icon.png"
             alt="Link to email address"
